@@ -22,6 +22,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Karla', sans-serif;
+  font-family: 'Dosis', sans-serif;
   font-weight: 400;
   line-height: 1.5;
   font-size: 16px;
@@ -42,7 +43,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Dosis', sans-serif;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -100,8 +101,6 @@ header {
     100% 0%,
     0 0
   );
-  /* border-bottom-left-radius: 50% 20%;
-  border-bottom-right-radius: 50% 20%; */
 }
 
 header a {
@@ -113,24 +112,14 @@ header a {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: 232F3E;
+    background-color: #232F3E;
     color: white;
     text-align: center;
+    z-index: 100;
 }
 
 button {
-  /* font-size: 1rem;
-  text-decoration: none;
-  padding: 0.25rem 1rem;
-  border-radius: .5rem;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  margin: 0 1px;
-  background-color: var(--secondary); */
-  
     float: center;
-    /* display: inline-block; */
     height: 25px;
     width:fit-content;
     margin: 1px auto 1px auto;
@@ -146,9 +135,7 @@ button {
     background-color: #f3a847a4;
     cursor: pointer;
     outline: none;
-  
 }
-
 
 button:hover {
   opacity: .8;
@@ -190,6 +177,19 @@ input:focus {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column;
+  align-items: center;
 }
 
 .flex-row {
@@ -263,10 +263,6 @@ input:focus {
   display: inline;
   float: left;
 }
-
-/* #our-title {
-  margin-left: 3%;
-} */
 
 .site-logo {
 margin: 1%;
@@ -391,7 +387,6 @@ margin-top: 5px;
   width: 654px;
   margin: 50px auto;
   border-radius: 7px 7px 7px 7px;
-  /* VIA CSS MATIC https://goo.gl/cIbnS */
   -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
@@ -419,25 +414,13 @@ margin-top: 5px;
 .product-text h1 {
   height: 300px;
   width: 327px;
-  /*  */
   margin: 0 0 0 38px;
   padding-top: 52px;
-  /* font-size: 34px; */
   color: #474747;
-  /*  */
 }
-
-/* .product-text h1 {
-  margin: 0 0 0 38px;
-  padding-top: 52px;
-  font-size: 34px;
-  color: #474747;
-} */
 
 .product-text h2 {
   margin: 0 0 47px 38px;
-  /* font-size: 13px; */
-  /* font-family: 'Raleway', sans-serif; */
   font-weight: 400;
   text-transform: uppercase;
   color: #d2d2d2;
@@ -451,7 +434,6 @@ margin-top: 5px;
 .product-text p {
   margin: 0 0 0 20px;
   padding: 10px 25px 0px 0px;
-  /* font-family: 'Playfair Display', serif; */
   color: #8d8d8d;
   line-height: 1.7em;
   font-size: 15px;
@@ -475,7 +457,6 @@ margin-top: 5px;
   position: absolute;
   top: -13px;
   height: 50px;
-  /* font-family: 'Trocchi', serif; */
   margin: 0 0 0 38px;
   font-size: 28px;
   font-weight: lighter;
@@ -485,13 +466,10 @@ margin-top: 5px;
 span {
   display: inline-block;
   height: 50px;
-  /* font-family: 'Suranna', serif; */
-  /* font-size: 34px; */
 }
 
 .product-price-btn button {
   float: right;
-  /* display: inline-block; */
   height: 50px;
   width: 176px;
   margin: 0px 40px 0px 16px;
@@ -512,11 +490,7 @@ span {
 .product-price-btn button:hover {
   background-color: #f3a847;
 }
-
-
-
 /* end blake add for single page dog */
-
 
 #our-title {
   color: beige;
@@ -552,5 +526,30 @@ span {
 
 
 
+}
+
+.reachout-h2-main {
+  display: block;
+  text-align: center;
+  padding: 2rem;
+}
+ .reachout-h2 {
+  text-align: center;
+  padding: 2rem;
+ }
+
+#reach-out {
+  display: block;
+  justify-content: center;
+  background-color: #272f3236;
+  padding-bottom: 5rem;
+  height: fit-content;
+  margin-bottom: 5rem;
+  border-top: 5px solid var(--primary)
+}
+
+iframe{
+  border: var(--primary) 10px solid;
+  margin-top: 5rem;
 }
 

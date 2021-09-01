@@ -6,12 +6,12 @@ function Contact(props) {
     return (
         <section id="reach-out">
             <div>
-                <h2>Reach Out</h2>
+                <h2 className="reachout-h2-main">Reach Out To Us Anytime ..</h2>
             </div>
 
             <div className="contact-info">
                 <div>
-                    <h3>REX Rescue Express 2.0</h3>
+                    <h3 className="reachout-h2">REX Rescue Express 2.0</h3>
                     <p>
                         Any questions or concerns before signing up?
                         <br />
@@ -19,16 +19,16 @@ function Contact(props) {
                     </p>
                     
                     <address>
-                        55 Main Street <br />
-                        Some Town, CA <br />
+                        00 Main Street <br />
+                        Some Town, TX <br />
                         12345 <br />
-                        P: 555.RUN.BUNDZ (555.786.2839) <br />
+                        P: 555.REX.PUPS (555.733.7877) <br />
                         E: <a href="mailto:blake.austin.dev@gmail.com">REX</a>
                     </address>
                 </div>
 
             <div className="contact-form">
-                <h3>Contact Us</h3>
+                <h3 className="reachout-h2">Contact Us</h3>
                 <form>
                     <input type="text" id="contact-name" placeholder="Your Name" />
 
