@@ -5,7 +5,7 @@ import React from "react";
 // That way we don't have to define them all individually
 function Footer(props) {
   return (
-    <footer>
+    <footer className="footer">
         <h2>❤️ Made with love by REX 2.0</h2>
         <div>
             {/* <a href="./pivacy-policy.html">Read Our Privacy Policy</a><br /> */}
