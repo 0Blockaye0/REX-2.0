@@ -3,7 +3,7 @@
 
   ## Description 
 
-  REX-2.0 is 
+  Rescue Express, or as we like to call it, REX, is an application that allows users to login or sign-up to create an account, then browse available dogs looking to be rescued, and submit an Application for a fee paid by credit card.
 
   here is a link to my project.
   
