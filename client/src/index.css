@@ -542,9 +542,8 @@ span {
   display: block;
   justify-content: center;
   background-color: #272f3236;
-  padding-bottom: 5rem;
+  padding-bottom: 10rem;
   height: fit-content;
-  margin-bottom: 5rem;
   border-top: 5px solid var(--primary)
 }
 
