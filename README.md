@@ -5,9 +5,9 @@
 
   Rescue Express, or as we like to call it, REX, is an application that allows users to login or sign-up to create an account, then browse available dogs looking to be rescued, and submit an Application for a fee paid by credit card.
 
-  here is a link to my project.
+  Below is a link to the deployed project.
   
-  * [link](https://rex2-0.herokuapp.com/)
+  * [Click Me! Im live!](https://rex2-0.herokuapp.com/)
 
   ## Table of Contents
 
@@ -23,8 +23,15 @@
 
   ## Installation
 
-  clone the repo then.....
+  Once the repo is cloned, from the root directory, type the command `npm install` to install packages in the server And client as well, as seen in the image below...
+  
+![scrrenshot](/assets/images/Rex-screenshot-packageJSON.png)
 
+If you like to run the seeds file to seed your database, from the root directory, simply type the command `npm run seed` .
+
+To start the application locally,  from the root directory, type the command `npm start` .
+
+* Directions for Deployment comming soon 🤓
 
   ## Usage
 
@@ -37,10 +44,9 @@
 ![screenshot](/assets/images/REX-screenshot-5.png)
 ![screenshot](/assets/images/REX-screenshot-6.png)
 
-
   ## Credits
 
-  chris ruiz
+  [Arthur Bates](https://github.com/artbat6), [Courtney Brown](https://github.com/courtlb), [Brian Casto](https://github.com/funkcake), [Blake Johnson](https://github.com/funkcake), [Chris Ruiz](https://github.com/Chrispruiz)
 
 
   ## License
@@ -55,13 +61,13 @@
 
   ## Features
 
-  After a user has checked out, they can view there applications by selecting the "View Applications" nav item on the right of the header.
+ - After a user has checked out, they can view there applications by selecting the "View Applications" nav item on the right of the header.
 
 
   ## Tests
 
-  No Test
-
+   - Routes can be tested using [GraphQL](https://graphql.org/).
+   - 
 
   ## Contributing
 
