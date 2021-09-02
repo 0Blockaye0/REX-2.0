@@ -3,7 +3,7 @@
 
   ## Description 
 
-  Rescue Express, or as we like to call it, REX, is an application that allows users to login or sign-up to create an account, then browse available dogs looking to be rescued, and submit an Application for a fee paid by credit card.
+  Rescue Express, or as we like to call it, REX, is an application that allows users to login or sign-up to create an account, then browse available dogs looking to    be rescued, and submit an Application for a fee paid by credit card.
 
   Below is a link to the deployed project.
   
@@ -23,26 +23,38 @@
 
   ## Installation
 
-  Once the repo is cloned, from the root directory, type the command `npm install` to install packages in the server And client as well, as seen in the image below...
+  Once the repo is cloned, from the root directory, type the command `npm install` to install packages in the server And client as well, as seen in the image         below...
   
-![scrrenshot](/assets/images/Rex-screenshot-packageJSON.png)
+  ![screenshot](/assets/images/Rex-screenshot-packageJSON.png)
 
-If you like to run the seeds file to seed your database, from the root directory, simply type the command `npm run seed` .
+  If you like to run the seeds file to seed your database, from the root directory, simply type the command `npm run seed` .
 
-To start the application locally,  from the root directory, type the command `npm start` .
+  To start the application locally,  from the root directory, type the command `npm start` .
 
-* Directions for Deployment comming soon 🤓
+  * Directions for Deployment comming soon 🤓
 
   ## Usage
 
   When first visiting the site, the user is brought to the homepage where all the available dogs are displayed. A user may filter the dogs data by size, and select to view on its own page. For any further user interaction, the user will need to sign up. once an account is created with a first & last name, email & password, the user may choose to submit an application. The submit simply adds the dog to a cart (located in the doghouse icon on the top right of the screen if on a large display, and center on smaller devices). When the user chooses to checkout, the application submision and the fee are itemized and displayed with a credit card form provided by Stripe. The Stripe functionality is in test mode for obvious reasons. I beleive this application serves as a great starting place/ template for an online store.
 
+#### HOMPAGE
 ![screenshot](/assets/images/REX-screenshot-1.png)
+
+#### REACH OUT
 ![screenshot](/assets/images/REX-screenshot-2.png)
+
+#### SIGNUP
 ![screenshot](/assets/images/REX-screenshot-3.png)
+
+#### LOGGED IN
 ![screenshot](/assets/images/REX-screenshot-4.png)
+
+#### CART
 ![screenshot](/assets/images/REX-screenshot-5.png)
+
+#### STRIPE CHECKOUT
 ![screenshot](/assets/images/REX-screenshot-6.png)
+
 
   ## Credits
 
