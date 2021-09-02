@@ -23,9 +23,9 @@
 
   ## Installation
 
-  Once the repo is cloned, from the root directory, type the command `npm install` to install packages in the server And client as well, as seen in the image         below...
+  Once the repo is cloned, from the root directory, type the command `npm install` to install packages in the server And client as well, as seen in the image below...
   
-  ![screenshot](/assets/images/Rex-screenshot-packageJSON.png)
+  ![screenshot](/assets/images/REX-screenshot-packageJSON-1.png)
 
   If you like to run the seeds file to seed your database, from the root directory, simply type the command `npm run seed` .
 
@@ -63,7 +63,7 @@
 
   ## License
 
-  * [https://www.mit.edu/~amini/LICENSE.md](https://www.mit.edu/~amini/LICENSE.md)
+  
   * [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Badges
